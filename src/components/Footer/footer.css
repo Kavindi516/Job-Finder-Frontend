@@ -1,0 +1,45 @@
+.mainFooter{
+    background-color: black;
+}
+.footerContainer{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-top: 1rem;
+    color: white;
+    padding: 30px;
+}
+.linkTitle{
+    margin-bottom: 1rem;
+    color: #9ef01a;
+}
+.links{
+    margin-bottom: 0.5rem;
+    font-size: 15px;
+}
+.footerTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+.logoImage{
+    width: 12rem;
+}
+.socialMidea{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.copyright{
+    color: white;
+    text-transform: capitalize;
+}
+.copSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-bottom: 10px;
+}

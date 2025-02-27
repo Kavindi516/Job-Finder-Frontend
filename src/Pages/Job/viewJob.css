@@ -1,0 +1,94 @@
+.mainConatainer{
+    overflow-y: scroll;
+    height: calc(89.7vh - 1px);
+    padding-top: 30px;
+}
+.viewJobContainer{
+    width: 90%;
+    margin: 2rem auto;
+}
+.secondSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.companyLogo{
+    border-radius: 50%;
+    width: 7rem;
+}
+.jobViewTitle{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.titleName{
+    font-size: 50px;
+    color: #495057;
+}
+.jobName{
+    color: darkgoldenrod;
+}
+.descriptionBox{
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    
+}
+.descTitle{
+    color: grey;
+}
+.description{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    text-align: justify;
+}
+.requirements{
+    margin-top: 1rem;
+    margin-left: 2rem;
+    line-height: 28px;
+    font-weight: 550;
+}
+.location{
+    font-size: 20px;
+    font-weight: bold;
+}
+.deadlineTitle{
+    margin-top: 1.2rem;
+    font-size: 20px;
+    font-weight: bold;
+}
+.deadline{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+.applyBtn{
+    width: 9rem;
+    padding: 10px;
+    background-color: #02c39a;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+.applyBtn:hover{
+    border: 2px solid #02c39a;
+    background-color: white;
+    color: #02c39a;
+    cursor: pointer;
+}
+.overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9); /* Adjust the alpha value to control darkness */
+    z-index: 0;
+}
+
+/*Validation Model*/
+.validationModel{
+    position: fixed;
+    left: 90%;
+}

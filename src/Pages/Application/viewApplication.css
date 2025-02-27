@@ -1,0 +1,35 @@
+.viewApplicationContainer{
+    position: absolute;
+    top: 20rem;
+    left: 30rem;
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    z-index: 1500;
+    border-radius: 10px;
+    max-height: 20rem;
+    overflow-y: hidden;
+}
+.titleBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.resumeTitle{
+    color: #457b9d;
+}
+.closeIconBtn{
+    border: none;
+    background-color: white;
+}
+.applicationLink{
+    cursor: pointer;
+    color: purple;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.applicationLink:hover{
+    color: purple;
+    text-decoration: underline;
+}

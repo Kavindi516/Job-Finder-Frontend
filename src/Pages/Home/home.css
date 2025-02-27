@@ -1,0 +1,57 @@
+.mainHome{
+    display: flex;
+    gap: 3rem;
+}
+.title{
+    color: black;
+    text-transform: uppercase;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.categoryContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #e3f2fd; */
+    padding: 10px;
+    width: 30rem;
+    border: 3px solid #2d6a4f;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.numericalContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin: 2rem auto;
+    /* border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+    padding: 10px;
+}
+.numberBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.numberName{
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.category{
+    color: #2d6a4f;
+    font-weight: bold;
+}
+.number{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 65px;
+    color: #469d89;
+}
+.heroContainer{
+    overflow-y: scroll;
+    height: calc(70vh - 1px);
+    padding-top: 30px;
+}

@@ -1,0 +1,41 @@
+.applicationsBtn{
+    background-color: blue;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.editedBtn{
+    background-color: #38a3a5;
+    width: 4rem;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.deletedBtn{
+    background-color: #bd1f36;
+    width: 5rem;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.resumies{
+    position: relative;
+    top: 0.5rem;
+    left: 5rem;
+    background-color: red;
+    width: 30px;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

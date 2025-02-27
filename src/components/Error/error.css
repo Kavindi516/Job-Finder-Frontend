@@ -1,0 +1,10 @@
+.errorContainer{
+    position: absolute;
+    top: 5rem;
+    left: 69%;
+    width: 29%;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    z-index: 1;
+}

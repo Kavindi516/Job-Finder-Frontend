@@ -1,0 +1,163 @@
+body {
+    background-color: #ffffff;
+}
+.pageConatiner {
+    overflow-y: auto; 
+    height: calc(100vh - 1px);
+}
+.prodileMainContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.profileConatiner{
+    width: 60%;
+}
+.publishTitle{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #6c757d;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+.profileCard{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    margin: 0px auto;
+    font-family: sans-serif;
+    padding-left: 30px;
+    border: 2px solid #2d6a4f;
+    border-radius: 5px;
+    background-color: #d8f3dc;
+    margin-bottom: 10px;
+    color: black;
+}
+.profileCard:hover{
+    background-color: rgba(0,0,0,0.1);
+}
+.cardProfile{
+    width: 5rem;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+.workTime{
+    background-color: #2d6a4f;
+    font-family: sans-serif;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    width: 8rem;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+}.jobTitle{
+    overflow-x: hidden;
+}
+.newJobBtn{
+    padding: 15px;
+    width: 12rem;
+    border: none;
+    background-color: #469d89;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.newJobBtn:hover{
+    background-color: rgba(0,0,0,0.9);
+}
+.welcomSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: 5px;
+    text-transform: capitalize;
+}
+.welcomeTitle{
+    color:  #469d89;
+    font-weight: bold;
+    font-size: 48px;
+    margin-left: 13px;
+    font-family: sans-serif;
+}
+.companyNameInWelcome{
+    font-size: 28px;
+    color: #b298dc;
+    text-transform: uppercase;
+}
+.editBtn{
+    font-family: sans-serif;
+    padding: 8px;
+    width: 5rem;
+    border: none;
+    background-color: #38a3a5;
+    border-radius: 5px;
+    margin-right: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.deleteBtn{
+    font-family: sans-serif;
+    padding: 8px;
+    width: 5rem;
+    border: none;
+    background-color: #bd1f36;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.editBtn:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.deleteBtn:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+.profileDetailsBox{
+    /* background-color: #edf2fb; */
+    padding: 5px 20px 20px 20px;
+    /* border: 1px solid grey; */
+}
+/*Profile Section*/
+.profileImage{
+    width: 8rem;
+    border-radius: 50%;
+    margin-top: -2rem; /* Adjust as needed to position it over the background image */
+    margin-left: calc(50% - 18rem); /* Center horizontally */
+    border: 5px solid #52796f;
+    position: relative;
+    z-index: 1; 
+}
+.backgroungImage{
+    margin-top: -4rem; 
+    width: 30rem;
+    height: 10rem;
+    border-radius: 10px;
+    border: 5px solid #52796f;
+   
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.detailsSection{
+    display: flex;
+    flex-direction: column;
+    gap: 01rem;
+    margin-top: 2rem;
+    text-transform: uppercase;
+}
+.overlay{
+    position: absolute;
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 100vh;
+    top:0px;
+    left:0px
+  }

@@ -1,0 +1,10 @@
+#registerConatiner{
+    width: 50%;
+    margin-top: 2.5rem;
+}
+.loginInputDate{
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    width: 29.4rem;
+}

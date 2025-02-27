@@ -1,0 +1,50 @@
+
+.applicationContainer{
+    position: absolute;
+    top: 20rem;
+    left: 30rem;
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    z-index: 1;
+    border-radius: 5px;
+}
+.applyBox{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 10px auto;
+}
+.uploadTitle{
+    margin: 10px 0 0 10px;
+    color: #495057;
+}
+.cvUploadBtn{
+    background-color: #2ec4b6;
+    border: none;
+    padding: 10px;
+    width: 5rem;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.cvCloseBtn{
+    background-color: #c9184a;
+    border: none;
+    padding: 10px;
+    width: 5rem;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.cvUploadBtn:hover{
+    background-color: rgba(0,0,0,0.9);
+    cursor: pointer;
+}
+.cvCloseBtn:hover{
+    background-color: rgba(0,0,0,0.9);
+    cursor: pointer;
+}
